@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="appie application to facilitate work 
+    to client, available for android-ios, working good, it have a many
+    options for your work."
+    />
+    <link rel="icon" href="img/logo-icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="scribt.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
+    "
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Appie Application</title>
+  </head>
+  <body>
+    <div>
+      <a href="#" class="fixed-btn"
+        ><ion-icon name="arrow-up-outline"></ion-icon
+      ></a>
+    </div>
+    <header class="header">
+      <a href="#">
+        <img class="logo-img" src="img/logo.png" alt="appie logo img"
+      /></a>
+      <div class="header-links">
+        <ul class="ul-header">
+          <li>
+            <a href="#hero" class="header-link">
+              Home
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="svg-header"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#market" class="header-link"> Service </a>
+          </li>
+          <li>
+            <a href="#how" class="header-link">
+              Pages
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="svg-header"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#advantage" class="header-link">
+              News
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="svg-header"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#footer" class="header-link"> Contact</a>
+          </li>
+          <li class="btn-header">
+            <a href="#download" class="btn-started"> Get Started </a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn-header-nav">
+        <ion-icon class="icon-header-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-header-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="hero-section" id="hero">
+        <div class="container grid grid--2-hero-cols hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-head">
+              Ready to lunch your app in one,
+              <strong>Application.</strong>
+            </h1>
+            <p class="hero-text">Find the best application in the appie</p>
+            <div class="hero-input-div">
+              <input
+                class="hero-input"
+                placeholder="info@appie.com"
+                type="text"
+              />
+              <ion-icon class="hero-1-icon" name="mail-outline"></ion-icon>
+              <ion-icon
+                class="hero-2-icon"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </div>
+            <div class="appie-cust">
+              <div class="appie-customers">
+                <img
+                  class="customer-img"
+                  src="img/people/customer-1.jpg"
+                  alt="appie customer "
+                />
+                <img
+                  class="customer-img"
+                  src="img/people/customer-2.jpg"
+                  alt="appie customer "
+                />
+                <img
+                  class="customer-img"
+                  src="img/people/customer-4.jpg"
+                  alt="appie customer "
+                />
+                <img
+                  class="customer-img"
+                  src="img/people/customer-5.jpg"
+                  alt="appie customer "
+                />
+              </div>
+              <div class="num-customers">
+                <p class="num">30k</p>
+                <p class="text">Feedback</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img
+              class="he-img"
+              src="img/hero.png"
+              alt="photo hero img point to appie"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-how" id="how">
+        <div class="container grid grid--2--cols">
+          <div class="how">
+            <h2 class="how-head">How does it Works</h2>
+            <span class="head-span"
+              >the full monty spiffing good time no biggie cack grub fantastic
+            </span>
+          </div>
+          <div class="how-btn">
+            <a href="#" class="btn-how">View all features &rarr;</a>
+          </div>
+        </div>
+        <div class="margin-box-top">
+          <div class="container grid grid--3--cols how-grid">
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-1-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                />
+              </svg>
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-2-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                />
+              </svg>
+
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-3-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-4-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
+                />
+              </svg>
+
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mates pend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-5-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mates pend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+            <div class="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon1 icon-6-color"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                />
+              </svg>
+
+              <p class="box-head">fast and intuitive</p>
+              <p class="box-text">
+                Oxford posh bevvy gives usa bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <a href="#" class="btn-box">Read More &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="marketing-section" id="market">
+        <div class="marketing container grid grid--2--cols">
+          <div class="marketing-img">
+            <img src="img/about-thumb-0.png" alt="appie marketing photo" />
+          </div>
+          <div class="marketing-content">
+            <div class="marketing-head">
+              <span class="marketing-span">Marketing</span>
+              <h2 class="how-head">Make a lasting impression with appie.</h2>
+              <span class="head-span"
+                >jolly good quaint james bond sponge happy days cras <br />
+                arse over blatant.
+              </span>
+            </div>
+            <div class="grid grid--2--cols">
+              <div class="Specifications-app">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
+                  </svg>
+                </div>
+                <div class="Specifications">
+                  <p class="head">Carefully designed</p>
+                  <p class="text">
+                    Mucker plastered bugger all <br />
+                    mate morish are.
+                  </p>
+                </div>
+              </div>
+              <div class="Specifications-app">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M4.5 12.75l6 6 9-13.5"
+                    />
+                  </svg>
+                </div>
+                <div class="Specifications">
+                  <p class="head">Carfuuly designed</p>
+                  <p class="text">
+                    Mucker plastered bugger all <br />
+                    mate morish are.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantages-section" id="advantage">
+        <div class="head-advantages">
+          <h2 class="head">
+            Wherever you need <br />
+            us the most
+          </h2>
+          <span class="span"
+            >the full monty spiffing good time no biggie cack grub fantastic.
+          </span>
+        </div>
+        <div class="container grid grid--2--cols">
+          <div class="advantages-text">
+            <div class="advantage">
+              <div class="icon icon1"></div>
+              <div class="text">
+                <p class="head-text">Well Integrated</p>
+                <p class="desc-text">
+                  the bee*s Knees chancer car boot absoultly.
+                </p>
+              </div>
+            </div>
+            <div class="advantage">
+              <div class="icon icon2"></div>
+              <div class="text">
+                <p class="head-text">Clean and modern Design</p>
+                <p class="desc-text">
+                  the bee*s Knees chancer car boot absolutely.
+                </p>
+              </div>
+            </div>
+            <div class="advantage">
+              <div class="icon icon3"></div>
+              <div class="text">
+                <p class="head-text">Light and dark mode</p>
+                <p class="desc-text">
+                  the bee*s Knees chancer car boot absoultly.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="advantage-img">
+            <img
+              src="img/features-thumb-2.png"
+              alt="advantage photo to explaine adventag"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="instructions-section" id="instra">
+        <div class="how margin-padding-instructions">
+          <h2 class="how-head">How does it Works</h2>
+          <span class="head-span"
+            >the full monty spiffing good time no biggie cack grub fantastic
+          </span>
+        </div>
+        <div class="container grid grid--4--cols grid-instructions">
+          <div class="statistics-icons">
+            <img
+              class="statistics-img"
+              src="img/icons/counter-icon-1.svg"
+              alt="statistics-icon"
+            />
+            <p class="statistics-text"><strong>45</strong>K+</p>
+            <p class="statistics-desc">Active Installation</p>
+          </div>
+          <div class="statistics-icons">
+            <img src="img/icons/counter-icon-2.svg" alt="statistics-icon" />
+            <p class="statistics-text"><strong>108</strong>+</p>
+            <p class="statistics-desc">Active Installation</p>
+          </div>
+          <div class="statistics-icons">
+            <img src="img/icons/counter-icon-3.svg" alt="statistics-icon" />
+            <p class="statistics-text"><strong>307</strong>+</p>
+            <p class="statistics-desc">Active Installation</p>
+          </div>
+          <div class="statistics-icons">
+            <img src="img/icons/counter-icon-4.svg" alt="statistics-icon" />
+            <p class="statistics-text"><strong>725</strong>+</p>
+            <p class="statistics-desc">Active Installation</p>
+          </div>
+        </div>
+        <div class="container grid grid-instruction-cols">
+          <div class="about-appie instruction-video-appie">
+            <video
+              class="video-appie"
+              src="videos/01-about-appie.mp4"
+              controls
+              preload="none"
+              loop
+              muted
+              poster="img/video-thumb-1.jpg"
+            ></video>
+            <div class="video-desc">
+              <p class="video-head">Watch the two-minute video to learn how</p>
+              <p class="about-appie-text">
+                the wireless cheesed on your bike zonked a load of old touch
+                hunky dory it is all gone to pot haggle william car boot bear
+                shaped geeza.
+              </p>
+              <a href="#" class="btn-how btn-video">Get Started</a>
+            </div>
+          </div>
+          <div class="about-appie-img">
+            <img
+              src="img/video-slide-1.jpg"
+              alt="photo video how to work appie"
+            />
+            <div class="video-icons">
+              <button>
+                <ion-icon class="icon" name="arrow-back-outline"></ion-icon>
+              </button>
+              <button>
+                <ion-icon class="icon" name="arrow-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="download-section" id="download">
+        <div class="download-head margin-download-head">
+          <div class="marketing-head contianer">
+            <span class="marketing-span">Download Our App</span>
+            <h2 class="how-head">
+              App is Available <br />
+              for free in app store.
+            </h2>
+            <span class="head-span"
+              >jolly good quaint james bond sponge happy days cras <br />
+              arse over blatant.
+            </span>
+          </div>
+        </div>
+        <div class="container downloading">
+          <div class="downloading-btn">
+            <button class="download-btn ios-link">
+              <ion-icon name="logo-apple"></ion-icon>
+              <div class="download-for">
+                <span>Download for</span>
+                <p>ios</p>
+              </div>
+            </button>
+          </div>
+          <div class="downloading-btn">
+            <button class="download-btn android-link">
+              <ion-icon name="logo-google-playstore"></ion-icon>
+              <div class="download-for">
+                <span>Download for</span>
+                <p>Android</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="pricing-section" id="prici">
+        <div class="head-advantages">
+          <h2 class="head">Simple pricing for Everyone.</h2>
+          <span class="pricing-span"
+            >the full monty spiffing good time no biggie cack grub fantastic.
+          </span>
+        </div>
+        <div class="period-pricing">
+          <div class="period">
+            <a href="#" class="btn-period monthly">Monthly</a>
+            <a href="#" class="btn-period Yearly">Yearly</a>
+          </div>
+        </div>
+        <div class="container grid grid--3--cols grid-price-column">
+          <div class="fresh-pricing">
+            <div class="price-text">
+              <p class="menu-head">Fresh</p>
+              <p class="price">
+                <span class="span-price">$</span> <strong>04</strong
+                ><span class="offer">/month</span>
+              </p>
+              <p class="offer">Get your 14 day free trial</p>
+            </div>
+            <ul class="pricing-planning">
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>60 day chat
+                history
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>15 GB cloud
+                storage
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>24/7 Support
+              </li>
+            </ul>
+            <a href="#" class="price-link"> Choose plan</a>
+          </div>
+          <div
+            class="fresh-pricing peusdo-pricing border-sweet-top box-sweet-shadow"
+          >
+            <div class="price-text">
+              <p class="menu-head">Sweet</p>
+              <p class="price">
+                <span class="span-price">$</span> <strong>16</strong
+                ><span class="offer">/month</span>
+              </p>
+              <p class="offer">Billed $276per website annually</p>
+            </div>
+            <ul class="pricing-planning">
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>60 day chat
+                history
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>15 GB cloud
+                storage
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>24/7 Support
+              </li>
+            </ul>
+            <a href="#" class="price-link sweet-btn"> Choose plan</a>
+          </div>
+          <div class="juicy-pricing">
+            <div class="price-text">
+              <p class="menu-head">Juicy</p>
+              <p class="price">
+                <span class="span-price">$</span> <strong>27</strong
+                ><span class="offer">/month</span>
+              </p>
+              <p class="offer">Billed $276per website annually</p>
+            </div>
+            <ul class="pricing-planning">
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>60 day chat
+                history
+              </li>
+
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>Data security
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>100 GB cloud
+                storage
+              </li>
+              <li class="defenit-text">
+                <ion-icon name="checkmark-outline"></ion-icon>24/7 Support
+              </li>
+            </ul>
+            <a href="#" class="price-link">Choose plan</a>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial-section" id="testimonial">
+        <div class="contianer">
+          <figure class="testimonials">
+            <div class="person-review">
+              <img
+                class="person-img"
+                src="img/people/customer-2.jpg"
+                alt="photo fo person review"
+              />
+              <div class="review-icons">
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <p class="person-evaluation">(4.7) review</p>
+            </div>
+            <blockquote class="developers-review">
+              <p class="text-review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                omnis totam, necessitatibus error quas in qui inventore, illo
+                nesciunt conseq commodi nobis ad blanditiis officia nihil
+                quaerat impedit voluptatum veritatis.
+              </p>
+              <p class="developer-name">Ammar Gomaa</p>
+              <p class="developer-jop">Web developer</p>
+            </blockquote>
+            <div class="direction-icons">
+              <button>
+                <ion-icon
+                  class="icon-dire"
+                  name="arrow-back-outline"
+                ></ion-icon>
+              </button>
+              <button>
+                <ion-icon
+                  class="icon-dire"
+                  name="arrow-forward-outline"
+                ></ion-icon>
+              </button>
+            </div>
+          </figure>
+        </div>
+      </section>
+      <section class="sponsers-section" id="sponsers">
+        <div class="head-advantages">
+          <h2 class="head">
+            Appie works best with <br />
+            your favorite platforms
+          </h2>
+          <span class="pricing-span">join over 40.000 business worldwide.</span>
+        </div>
+        <div class="container grid grid--1--cols sponsers-column">
+          <div class="sponsers">
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-1.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-2.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-3.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-4.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-5.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-6.png" alt="sponsers logo" />
+            </div>
+          </div>
+          <div class="sponsers sponsors-flex-gap">
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-7.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-8.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-9.png" alt="sponsers logo" />
+            </div>
+            <div class="sponsors-img">
+              <img src="img/sponsers/sponser-10.png" alt="sponsers logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="container grid footer-grid">
+          <div class="about-appie-footer">
+            <a href="#">
+              <div class="appie-logo">
+                <img
+                  class="logo-img"
+                  src="img/logo.png"
+                  alt="appie logo img"
+                /></div
+            ></a>
+            <p class="text-about-appie">
+              appie wordpress is theme is the last <br />
+              theme you will ever have
+            </p>
+            <a href="#" class="more-about">Read more &rAarr;</a>
+            <div class="social-links">
+              <a href="www.facebook.com" class="sc-li"
+                ><ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="www.twitter.com" class="sc-li"
+                ><ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="www.pinterset.com" class="sc-li"
+                ><ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+              <a href="www.linkedin.com" class="sc-li"
+                ><ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="company-links">
+            <p class="head head-margin">Company</p>
+            <ul class="ul-footer">
+              <li><a href="#" class="footer-link">About us</a></li>
+              <li><a href="#" class="footer-link">Service</a></li>
+              <li><a href="#" class="footer-link">Case Studies</a></li>
+              <li><a href="#" class="footer-link">Blog</a></li>
+              <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="company-links">
+            <p class="head head-margin">Support</p>
+            <ul class="ul-footer">
+              <li><a href="#" class="footer-link">Community</a></li>
+              <li><a href="#" class="footer-link">Resources</a></li>
+              <li><a href="#" class="footer-link">Faqs</a></li>
+              <li><a href="#" class="footer-link">Privacy policy</a></li>
+              <li><a href="#" class="footer-link">Careers</a></li>
+            </ul>
+          </div>
+          <address class="addresses">
+            <p class="head head-margin">Get In Touch</p>
+            <ul class="ul-footer ul-adress">
+              <li>
+                <ion-icon class="conect-icon" name="mail-outline"></ion-icon>
+                <a class="adress-conect email" href=" support@appie.com">
+                  support@appie.com</a
+                >
+              </li>
+              <li>
+                <ion-icon class="conect-icon" name="call-outline"></ion-icon>
+                <a class="adress-conect email" href="#">+(642) 342 762 44</a>
+              </li>
+              <li>
+                <ion-icon
+                  class="conect-icon"
+                  name="location-outline"
+                ></ion-icon>
+                <a class="adress-conect email" href="#"
+                  >442 Belle Terre st floor 7,san Francisco, AV 4206
+                </a>
+              </li>
+            </ul>
+          </address>
+          <div class="footer-download">
+            <button class="footer-btn">
+              <ion-icon name="logo-apple"></ion-icon>
+              <div class="downloading">
+                <p>Download for Ios</p>
+              </div>
+            </button>
+            <button class="footer-btn footer-android">
+              <ion-icon name="logo-google-playstore"></ion-icon>
+              <div class="downloading">
+                <p>Download for Android</p>
+              </div>
+            </button>
+            <p class="foot-doan-text">
+              copyright &copy; <span class="year-num">2021</span> Appie. All
+              rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

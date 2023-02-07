@@ -1,0 +1,443 @@
+/* ****************** */
+/* ****************** */
+/* ****************** */
+/* ****************** */
+/*Below [ 1300px / 16px ] desktop responsive */
+/* *******************/
+@media (max-width: 8em) {
+  /* .hero-section {
+    max-width: 130rem;
+  } */
+  .he-img {
+    width: 70rem;
+  }
+  .header {
+    padding: 3.2rem 5.4rem;
+  }
+}
+/* ****************** */
+/*Below [ 1200px / 16px ]  tablets-responsive */
+/* *******************/
+@media (max-width: 75em) {
+  .hero-section {
+    max-width: 120rem;
+  }
+  .he-img {
+    width: 60rem;
+  }
+  .grid-instruction-cols {
+    grid-template-columns: 1fr;
+  }
+  .about-appie {
+    justify-content: center;
+  }
+
+  .hero-head strong {
+    font-weight: 600;
+  }
+  .about-appie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-appie-img {
+    justify-self: center;
+  }
+  .instruction-video-appie {
+    padding-left: 8rem;
+  }
+  .video-icons {
+    bottom: -57%;
+    left: 71%;
+  }
+}
+
+/* ****************** */
+/*Below [ 940px / 16px ]  responsive */
+/* *******************/
+@media (max-width: 58em) {
+  .he-img {
+    width: 55rem;
+  }
+  .how {
+    padding: 0 3.2rem;
+  }
+  .Appie-header {
+    padding: 3.2rem 3.2rem;
+  }
+  .grid--4--cols,
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .statistics-icons img {
+    width: 30%;
+  }
+  .grid-instructions {
+    margin: 8rem;
+  }
+  .juicy-pricing {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+  .fresh-pricing {
+    justify-self: center;
+    width: 32rem;
+  }
+  .footer-grid {
+    padding: 6.4rem 3.2rem;
+  }
+  .about-appie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-appie img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .instruction-video-appie {
+    padding-left: 8rem;
+  }
+  .margin-padding-instructions {
+    padding-left: 3.2rem;
+  }
+  .hero-1-icon {
+    top: 22%;
+    left: 2%;
+  }
+  .about-appie-img {
+    justify-self: center;
+  }
+}
+/* ****************** */
+/*Below [ 940px / 16px ]  responsive */
+/* *******************/
+@media (max-width: 58em) {
+  .header {
+    padding: 3.2rem;
+  }
+  .he-img {
+    width: 40%;
+  }
+  .hero-section {
+    padding-top: 10rem;
+  }
+  .hero-img {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+  .grid--2-hero-cols {
+    grid-template-columns: 1fr;
+  }
+  .instruction-video-appie {
+    padding-left: 2.4rem;
+  }
+  .fixed-btn {
+    width: 4.8rem;
+    height: 4.8rem;
+  }
+  .fixed-btn ion-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .btn-header-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .header-links {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 50vh;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: 999;
+    transition: all 0.8s ease-in;
+  }
+  .open-header .header-links {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .open-header .btn-header-nav [name="menu-outline"] {
+    display: none;
+  }
+  .open-header .btn-header-nav [name="close-outline"] {
+    display: block;
+  }
+  .ul-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+  .ul-header:link,
+  .ul-header:visited {
+    font-size: 3.4rem;
+  }
+
+  .hero-text {
+    margin-bottom: 3.2rem;
+  }
+  .hero-input {
+    padding: 1.6rem 1.6rem;
+  }
+
+  .about-appie-img img {
+    width: 35rem;
+  }
+
+  .about-appie-img {
+    justify-content: end;
+  }
+  .about-appie img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .video-appie {
+    margin-left: -1rem;
+  }
+}
+/* ****************** */
+/*Below [ 700px / 16px ]  responsive phones */
+/* *******************/
+@media (max-width: 43em) {
+  html {
+    font-size: 61.5%;
+  }
+  .grid--2--cols,
+  .grid--3--cols,
+  .grid--4--cols {
+    grid-template-columns: 1fr;
+  }
+  .hero-head {
+    font-size: 3.6rem;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: end;
+  }
+  .he-img {
+    width: 20rem;
+  }
+  .hero-content {
+    padding: 0rem 1.2rem;
+    text-align: start;
+  }
+  .hero-text {
+    font-size: 1.8rem;
+  }
+  .hero-input-div {
+    justify-content: flex-start;
+    margin-bottom: 3.2rem;
+  }
+  .how-grid {
+    text-align: center;
+    width: 40rem;
+  }
+  .how-btn {
+    padding-top: 2.4rem;
+    display: block;
+    margin: 0 3.2rem;
+  }
+  .appie-cust {
+    justify-content: flex-start;
+  }
+
+  .marketing-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marketing-content {
+    text-align: center;
+  }
+  .Specifications-app {
+    justify-self: center;
+  }
+  .Specifications .text {
+    text-align: start;
+  }
+  .advantage-img {
+    display: flex;
+    justify-content: center;
+  }
+  .advantage-img img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .downloading {
+    display: flex;
+    flex-direction: column;
+  }
+  .download-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-appie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .testimonials {
+    padding: 9.6rem 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 9rem;
+  }
+  .video-icon {
+    top: 20%;
+    left: 54%;
+  }
+  .direction-icons {
+    position: absolute;
+    top: 77%;
+    right: 8%;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-appie-footer {
+    text-align: center;
+    justify-self: center;
+  }
+  .social-links {
+    justify-content: center;
+  }
+  .addresses {
+    padding: 0 22.4rem;
+  }
+  .company-links {
+    justify-self: center;
+  }
+  .addresses {
+    justify-self: center;
+  }
+  .footer-download {
+    justify-self: center;
+  }
+  .footer-download {
+    flex-direction: column;
+  }
+  .advantage-img img {
+    width: 32rem;
+  }
+  .about-appie img {
+    margin: auto 9.6rem;
+  }
+  .sponsors-img {
+    width: 4rem;
+    padding: 1.6rem 2.4rem;
+  }
+  .video-icons {
+    right: 25%;
+  }
+  .hero-1-icon {
+    left: 4%;
+  }
+  .about-appie-img img {
+    width: 25rem;
+  }
+
+  /* ****************** */
+  /*Below [ 544px / 16px ]  responsive phones */
+  /* *******************/
+  @media (max-width: 34em) {
+    .addresses {
+      padding: 0 12.8rem;
+    }
+
+    .footer-download {
+      flex-direction: column;
+    }
+    .sponsers {
+      flex-flow: wrap;
+    }
+
+    .box {
+      margin-left: -3rem;
+      width: 30rem;
+      padding: 3.2rem;
+      justify-self: center;
+    }
+    .sponsors-flex-gap {
+      gap: 2.6rem;
+    }
+    .sponsors-img {
+      width: 0;
+      padding: 1.6rem 6.4rem;
+    }
+    .video-icons {
+      right: 29%;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: center;
+    }
+    .no-flexbox-gap .main-nav-list li:not(:last-child) {
+      margin-right: 4.8rem;
+    }
+
+    .no-flexbox-gap .list-item:not(:last-child) {
+      margin-bottom: 1.6rem;
+    }
+
+    .no-flexbox-gap .list-icon:not(:last-child) {
+      margin-right: 1.6rem;
+    }
+
+    .no-flexbox-gap .delivered-faces {
+      margin-right: 1.6rem;
+    }
+
+    .no-flexbox-gap .meal-attribute:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    .no-flexbox-gap .meal-icon {
+      margin-right: 1.6rem;
+    }
+
+    .no-flexbox-gap .footer-row div:not(:last-child) {
+      margin-right: 6.4rem;
+    }
+
+    .no-flexbox-gap .social-links li:not(:last-child) {
+      margin-right: 2.4rem;
+    }
+
+    .no-flexbox-gap .footer-nav li:not(:last-child) {
+      margin-bottom: 2.4rem;
+    }
+
+    @media (max-width: 75em) {
+      .no-flexbox-gap .main-nav-list li:not(:last-child) {
+        margin-right: 3.2rem;
+      }
+    }
+
+    @media (max-width: 59em) {
+      .no-flexbox-gap .main-nav-list li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 4.8rem;
+      }
+    }
+  }
+}
